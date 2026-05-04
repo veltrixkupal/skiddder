@@ -1,36 +1,33 @@
-local Arqel = loadstring(game:HttpGet("https://pastefy.app/l0xUj1dd/raw"))()
+local Arqel = loadstring(game:HttpGet("https://raw.githubusercontent.com/Cobruhehe/expert-octo-doodle/refs/heads/main/ArqelUi.luau"))()
 
-Arqel.Appearance.Title = "Nexo Mods"
-Arqel.Appearance.Icon = "rbxassetid://95417654094773"
-Arqel.Links.Discord = "https://discord.com/users/856461834147987496"
-Arqel.Storage.FileName = "SavedKey_Nexo"
+Arqel.Appearance.Title = "Junkie"
+Arqel.Appearance.Icon = "rbxassetid://134697043118282"
+Arqel.Links.Discord = "Discord.gg/jnkie"
+Arqel.Storage.FileName = "Jnkie_key"
+-- Arqel.Options.KeylessUi = "true"
 
-Arqel.Theme.Accent = Color3.fromRGB(32, 32, 36)
-Arqel.Theme.AccentHover = Color3.fromRGB(255, 255, 255)
-Arqel.Theme.Background = Color3.fromRGB(4, 4, 5)
-Arqel.Theme.Header = Color3.fromRGB(10, 10, 12)
-Arqel.Theme.Input = Color3.fromRGB(14, 14, 16)
-Arqel.Theme.Card = Color3.fromRGB(18, 18, 20)
-Arqel.Theme.Text = Color3.fromRGB(245, 245, 245)
-Arqel.Theme.TextDim = Color3.fromRGB(140, 140, 145)
-Arqel.Theme.Divider = Color3.fromRGB(28, 28, 30)
-Arqel.Theme.Success = Color3.fromRGB(95, 210, 150)
-Arqel.Theme.Error = Color3.fromRGB(235, 85, 85)
-Arqel.Theme.StatusIdle = Color3.fromRGB(120, 120, 125)
 
-Arqel.Options = {
-    Blur = true,
-    Draggable = false
-}
+Arqel.Theme.Accent = Color3.fromRGB(110, 60, 255)
+Arqel.Theme.AccentHover = Color3.fromRGB(130, 90, 255)
+Arqel.Theme.Background = Color3.fromRGB(10, 10, 20)
+Arqel.Theme.Header = Color3.fromRGB(15, 15, 30)
+Arqel.Theme.Input = Color3.fromRGB(20, 20, 40)
+Arqel.Theme.Text = Color3.fromRGB(255, 255, 255)
+Arqel.Theme.TextDim = Color3.fromRGB(160, 160, 200)
+Arqel.Theme.Success = Color3.fromRGB(0, 220, 180)
+Arqel.Theme.Error = Color3.fromRGB(255, 70, 90)
+Arqel.Theme.StatusIdle = Color3.fromRGB(120, 100, 200)
+
 
 Arqel.Shop = {
     Enabled = true,
-    Icon = "rbxassetid://76570669327714",
-    Title = "Exclusive Access & Quality",
-    Subtitle = "Reliable service • Premium assistance",
+    Icon = "",
+    Title = "Get Premium",
+    Subtitle = "Instant delivery • 24/7 support",
     ButtonText = "Buy",
-    Link = "tiktok.com/@anechointhestatic"
+    Link = "jnkie.com"
 }
+
 
 Arqel:LaunchJunkie({
     Service = "Astra",
